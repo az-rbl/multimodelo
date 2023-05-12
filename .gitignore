@@ -1,0 +1,22 @@
+# Python virtual environment
+venv/
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Logs and temporary files
+*.log
+*.swp
+*~
+
+# Environment configuration
+.env
+
+# IDE-specific files and directories
+.idea/
+.vscode/
+
+# Dependency management
+pip-lock.txt

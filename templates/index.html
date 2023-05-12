@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PruebaGPT</title>
+
+  </head>
+  <body >
+    <h1 align = "center">PruebaGPT</h1>
+    <div align = "center">
+    <form method="POST" action="/upload"enctype="multipart/form-data" >
+      <textarea name="prompt"  rows="4" cols="50" >Escribe una opinión</textarea>
+      <br>
+      <button type="submit">Send</button>
+    </form>
+    {% if texto %}
+    <p>{{ texto }}</p>
+  {% endif %}
+</div>
+
+<div>
+
+</div>
+  </body>
+</html>
